@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boyeoffice/nodejs-graphql.git"
+  },
+  "keywords": [
+    "nodejs",
+    "graphql"
+  ],
+  "author": "Olakunle Boye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boyeoffice/nodejs-graphql/issues"
+  },
+  "homepage": "https://github.com/boyeoffice/nodejs-graphql#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
