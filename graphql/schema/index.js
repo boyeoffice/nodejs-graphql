@@ -26,7 +26,7 @@ module.exports = buildSchema(`
 			email: String!
 			password: String!
 		}
-		input EventIput {
+		input EventInput {
 			title: String!
 			description: String!
 			price: Float!
@@ -37,7 +37,7 @@ module.exports = buildSchema(`
 				bookings: [Booking!]!
 		}
 		type RootMutation {
-				createEvent(eventInput: EventIput): Event
+				createEvent(eventInput: EventInput): Event
 				createUser(userInput: UserInput): User
 				bookEvent(eventId: ID): Booking!
 				cancelBooking(bookingId: ID): Event!
